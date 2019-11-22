@@ -9,7 +9,7 @@ class Solution(object):
 
         i = 0
         for num in nums:
-            if nums[i] != num:
+            if nums[i] != num: #if not duplicates 
                 i += 1
                 nums[i] = num
         return i+1
